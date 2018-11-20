@@ -4,7 +4,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
-//It's in here you define your individual routes (its an aray of objects)
+// It's in here you define your individual routes (its an aray of objects)
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
